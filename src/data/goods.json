@@ -1,0 +1,13 @@
+[
+  {
+    "itemphotos": ["umaibo01.jpg", "umaibo02.jpg", "umaibo03.jpg"],
+    "name": "うまい棒サラミ味",
+    "price": 12,
+    "state": true,
+    "text": "スパイスとスモークのきいたサラミスティックをうまい棒で再現しました。",
+    "id": 27002,
+    "colors": "黄色",
+    "maker": "（株）やおきん",
+    "url": "umaibo"
+  }
+]
