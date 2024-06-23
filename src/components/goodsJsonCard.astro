@@ -1,0 +1,12 @@
+---
+import goods from "../data/goods.json";
+console.log(goods);
+---
+
+<ul>
+  {goods.map((list) => 
+     <li>{list.name}</li>
+     <img src=`/images/${list.itemphotos[0]}` />
+     <p>{list.text}</p>
+  )}
+</ul>
