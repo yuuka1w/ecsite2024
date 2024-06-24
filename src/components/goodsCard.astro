@@ -1,6 +1,7 @@
 ---
 const { href, title, body, thumbnail } = Astro.props;
 ---
+<div class="goods">
 <article>
 <a href={href}>
   <h2>{title}</h2>
@@ -8,3 +9,4 @@ const { href, title, body, thumbnail } = Astro.props;
   <p>{body}</p>
 </a>
 </article>
+</div>

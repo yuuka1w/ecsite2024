@@ -1,0 +1,14 @@
+main {
+  display: flex;
+  flex-wrap: wrap;
+
+  .goods {
+    width: 30%;
+    object-fit: contain;
+    aspect-ratio: 3 / 4;
+
+    img {
+      width: 100%;
+    }
+  }
+}
