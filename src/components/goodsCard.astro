@@ -1,12 +1,14 @@
 ---
-const { href, title, body, thumbnail } = Astro.props;
+const { href, title, body, thumbnail,price } = Astro.props;
 ---
 <div class="goods">
 <article>
 <a href={href}>
-  <h2>{title}</h2>
+
   <img src=`/images/${thumbnail}` alt={title} />
+    <h2>{title}</h2>
   <p>{body}</p>
+  <p>{price}</p>
 </a>
 </article>
 </div>

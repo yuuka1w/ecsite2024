@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/goodsLayout.astro
-title: なにわ男子オリジナルペンライト(1st Love)
+title: ペンライト(1st Love)
 text: 「なにわ男子 Debut Tour 2022 1st Love」オフィシャルグッズ
 thumbnail: yochan01.jpg
 price: 50,

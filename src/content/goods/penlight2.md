@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/goodsLayout.astro
-title: なにわ男子オリジナルペンライト(POPMALL)
+title: ペンライト(POPMALL)
 text: 「なにわ男子 Debut Tour 2023 POPMALL」オフィシャルグッズ
 thumbnail: yochan01.jpg
 price: 50,
