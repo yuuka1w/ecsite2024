@@ -1,11 +1,18 @@
+body {
+  margin: 0;
+}
+
 main {
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
+  gap: 40px;
 }
 main .goods {
-  width: 30%;
+  width: 25%;
+  flex-direction: column;
 }
 main .goods a {
   text-decoration: none;
@@ -16,7 +23,20 @@ main .goods h2 {
   font-weight: regular;
 }
 main .goods img {
-  max-width: 100%;
-  width: 500px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+footer {
+  width: 100%;
+  height: 0;
+  text-align: center;
+}
+footer p {
+  color: white;
+  background-color: #ffbeda;
+  padding: 20px;
+  margin-top: 100px;
 }
 /*# sourceMappingURL=style.css.map */
