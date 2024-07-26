@@ -1,7 +1,15 @@
 ---
 const {frontmatter} = Astro.props;
 ---
+<div class="single">
+    <slot />
 
-
-<h2>{frontmatter.title}</h2>
-<slot />
+    <div class="product_details">
+        <h2>{frontmatter.title}</h2>
+        <p>{frontmatter.price}</p>
+        <p>{frontmatter.text}</p>
+        <p>{frontmatter.id}</p>
+        <p>{frontmatter.colors}</p>
+        <p>{frontmatter.maker}</p>
+    </div>
+</div>

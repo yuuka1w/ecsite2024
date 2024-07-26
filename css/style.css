@@ -39,4 +39,43 @@ footer p {
   padding: 20px;
   margin-top: 100px;
 }
+
+.img-switcher {
+  max-width: 900px;
+  margin: 20px auto;
+}
+
+.main-img {
+  width: 100%;
+  aspect-ratio: 3/2;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px;
+}
+
+.thumbnails {
+  display: flex;
+  gap: 4%;
+  margin-top: 4%;
+}
+
+.thumb-btn {
+  width: 22%;
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.thumb-img {
+  width: 100%;
+  aspect-ratio: 1;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px;
+}
+
+.active {
+  opacity: 0.5;
+}
 /*# sourceMappingURL=style.css.map */
