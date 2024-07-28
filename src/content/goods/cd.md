@@ -2,7 +2,7 @@
 layout: ../../layouts/goodsLayout.astro
 title: アルバム（1st Love）
 text: なにわ男子初のアルバム「1st Love」。ピュアでキュートな、彼らの真骨頂とも言えるキラキラアイドル王道の音楽を存分にご堪能ください！
-thumbnail: 1stLove_cd.webp
+thumbnail: 1stLove_cd.png
 price: 4500
 state: false,
 id: JACA-5994
@@ -11,11 +11,11 @@ maker: Storm Labels
 ---
 
  <div class="img-switcher">
-      <img id="mainImg" class="main-img" src="/04_ecsite/images/1stLove_cd.webp" alt="アルバム(1st Love)" />
+      <img id="mainImg" class="main-img" src="/04_ecsite/images/1stLove_cd.png" alt="アルバム(1st Love)" />
       <div class="thumbnails">
-        <button class="thumb-btn active"><img class="thumb-img" src="/04_ecsite/images/1stLove_cd.webp" alt="アルバム(1st Love)" /></button>
-        <button class="thumb-btn"><img class="thumb-img" src="/04_ecsite/images/1stLove_cd.webp" alt="アルバム(1st Love)" /></button>
-        <button class="thumb-btn"><img class="thumb-img" src="/04_ecsite/images/1stLove_cd.webp" alt="アルバム(1st Love)" /></button>
+        <button class="thumb-btn active"><img class="thumb-img" src="/04_ecsite/images/1stLove_cd.png" alt="アルバム(1st Love)" /></button>
+        <button class="thumb-btn"><img class="thumb-img" src="/04_ecsite/images/1stLove_cd2.png" alt="アルバム(1st Love)" /></button>
+        <button class="thumb-btn"><img class="thumb-img" src="/04_ecsite/images/1stLove_cd4.png" alt="アルバム(1st Love)" /></button>
       </div>
     </div>
 

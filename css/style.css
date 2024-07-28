@@ -2,6 +2,11 @@ body {
   margin: 0;
 }
 
+.header {
+  width: 90%;
+  margin: auto;
+}
+
 main {
   width: 100%;
   height: 100%;
@@ -26,6 +31,7 @@ main .goods img {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  height: 100%;
 }
 
 footer {
@@ -35,7 +41,7 @@ footer {
 }
 footer p {
   color: white;
-  background-color: #ffbeda;
+  background-color: #308968;
   padding: 20px;
   margin-top: 100px;
 }
@@ -47,7 +53,6 @@ footer p {
 
 .main-img {
   width: 100%;
-  aspect-ratio: 3/2;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 20px;
@@ -77,5 +82,23 @@ footer p {
 
 .active {
   opacity: 0.5;
+}
+
+.single {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  gap: 30px;
+}
+.single .product_details {
+  padding: 60px 0;
+}
+.single a {
+  margin: 10% 0;
+  padding: 3%;
+  text-decoration: none;
+  background-color: #308968;
+  color: #fff;
+  border-radius: 5px;
 }
 /*# sourceMappingURL=style.css.map */
