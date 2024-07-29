@@ -19,46 +19,6 @@ maker: Storm Labels
       </div>
     </div>
 
-<!-- <div id="mainImg" class="main-img">
-
-![アルバム(1st Love)](/04_ecsite/images/1stLove_cd.webp)
-
-</div>
-
-<div class="thumbnails">
-
-<button class="thumb-btn active">
-
-<div class=" thumb-img">
-
-![アルバム(1st Love)](/04_ecsite/images/1stLove_cd.webp)
-
-</div>
-
-</button>
-
-<button class="thumb-btn  ">
-
-<div class="thumb-img">
-
-![アルバム(1st Love)](/04_ecsite/images/1stLove_cd.webp)
-
-</div>
-
-</button>
-
-<button class="thumb-btn  ">
-
-<div class="thumb-img">
-
-![アルバム(1st Love)](/04_ecsite/images/1stLove_cd.webp)
-
-</div>
-
-</button>
-
-</div> -->
-
   <script>
     document.addEventListener('DOMContentLoaded', () => {
       const mainImg = document.getElementById('mainImg');
@@ -72,4 +32,6 @@ maker: Storm Labels
         });
       });
     });
+
+
   </script>

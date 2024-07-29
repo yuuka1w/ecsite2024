@@ -10,6 +10,48 @@ import "../assets/styles/style.scss"
   <body>
     <Header />
     <slot />
+   <div class="button-container">
+        <button class="load-more">さらに表示</button>
+      </div>
     <Footer />
+
+
+
+      <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var loadMoreButton = document.querySelector(".load-more");
+        var cards = document.querySelectorAll(".card");
+
+
+
+        cards.forEach(function (card, index) {
+          if (index >= 9) {
+            card.classList.remove("expanded");
+          } else {
+            card.classList.add("expanded");
+          }
+        });
+
+
+        loadMoreButton.addEventListener("click", function () {
+          cards.forEach(function (card, index) {
+            if (index >= 9) {
+              card.classList.toggle("expanded");
+            }
+          });
+
+
+          if (loadMoreButton.textContent === "さらに表示") {
+            loadMoreButton.textContent = "表示を減らす";
+          } else {
+            loadMoreButton.textContent = "さらに表示";
+          }
+        });
+      });
+
+
+
+    </script>
+
   </body>
 </html>

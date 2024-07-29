@@ -10,4 +10,26 @@ colors: 赤色
 maker: Storm Labels
 ---
 
-![アルバム(+Alpha)](/04_ecsite/images/alpha_cd.png)
+<div class="img-switcher">
+      <img id="mainImg" class="main-img" src="/04_ecsite/images/alpha_cd.png" alt="アルバム(1st Love)" />
+      <div class="thumbnails">
+        <button class="thumb-btn active"><img class="thumb-img" src="/04_ecsite/images/alpha_cd.png" alt="アルバム（+Alpha）" /></button>
+        <button class="thumb-btn"><img class="thumb-img" src="/04_ecsite/images/alpha_cd2.png" alt="アルバム（+Alpha）" /></button>
+        <button class="thumb-btn"><img class="thumb-img" src="/04_ecsite/images/alpha_cd3.png" alt="アルバム（+Alpha）" /></button>
+      </div>
+    </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const mainImg = document.getElementById('mainImg');
+      const thumbBtns = document.querySelectorAll('.thumb-btn');
+
+      thumbBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          thumbBtns.forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          mainImg.src = btn.querySelector('img').src;
+        });
+      });
+    });
+  </script>
